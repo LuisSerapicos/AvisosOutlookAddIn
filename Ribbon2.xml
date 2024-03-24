@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns" label="Avisos">
+		  <group id="ContentGroup" label="Avisos">
+			  <button id="addCompromissoButton" label="Adicionar aviso"
+				   screentip="Text" onAction="showWinForm"
+				   supertip="Adicionar um aviso." size="large" imageMso="QueryMakeTable"/>
+			  
+			  <!--<button id="cancelCompromissoButton" label="Remover compromisso"
+				   screentip="Text" onAction="showWinForm3"
+				   supertip="Remover compromissos." size="large" imageMso="RemoveFromCalendar"/> -->
+			  
+			  <button id="getAllCompromissosButton" label="Lista de avisos"
+				   screentip="Text" onAction="showWinForm2"
+				   supertip="Ver todos os avisos criados." size="large" imageMso="TableFind"/>
+
+			  <!--<button id="editCompromissoButton" label="Editar compromisso"
+				   screentip="Text" onAction="showWinForm4"
+				   supertip="Editar compromissos." size="large" imageMso="GroupRecover"/> -->
+		  </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
